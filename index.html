@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Apna-Notes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="title">Welcome to Apna-Notes</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div class="note-form">
+        <h2 class="section-title">Add a Note</h2>
+        <input type="text" id="note-title" placeholder="Title">
+        <textarea id="note-content" placeholder="Write your note here..."></textarea>
+        <button id="add-button" class="add-button">Add</button>
+      </div>
+      <div class="search-form">
+        <h2 class="section-title">Search Notes</h2>
+        <input type="text" id="search-input" placeholder="Search by title...">
+      </div>
+      <div class="note-list">
+        <!-- Notes will be displayed here -->
+      </div>
+      <div class="history-section">
+        <h2 class="section-title">History of Deleted Notes</h2>
+        <div class="history-list">
+          <!-- Deleted notes will be displayed here -->
+        </div>
+      </div>
+      <button id="show-history-button" class="show-history">See History</button>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; Anwesha</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
